@@ -1,2 +1,0 @@
-# gunessahin.github.io
-Welcome
