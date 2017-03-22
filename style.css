@@ -24,4 +24,7 @@ color: #fff;
 table {
 border-collapse: collapse;
   width: 500px;
+  text-aling: center;
+  font-color: #000;
+  background-color: #fff;
 }
