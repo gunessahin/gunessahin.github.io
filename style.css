@@ -14,8 +14,10 @@ font-family: Times New Roman, Arial, Helvatica;
 }
 ol {
 list-style-type: upper-roman;
+color: #fff;
 }
   ul
   {
   list-style-type: circle;
+  color: #fff;
   }
