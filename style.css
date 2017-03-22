@@ -7,3 +7,8 @@ font-family: Times New Roman, Arial, Helvatica;
   font-style: italic;
   font-weight: bold;
 }
+ a { link: color:#FF0000;    
+   visited: color:#00FF00; 
+   hover: color:#FF00FF;
+   active: color:#0000FF;
+}
