@@ -12,3 +12,10 @@ font-family: Times New Roman, Arial, Helvatica;
    hover: color:#FF00FF;
    active: color:#0000FF;
 }
+ol {
+list-style-type: upper-roman;
+}
+  ul
+  {
+  list-style-type: circle;
+  }
