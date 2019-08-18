@@ -1,28 +1,124 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional// EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-<meta charset="UTF-8">
-<title></title>
-<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
-</head>
-<body>
-<p> deneme  </p>
- <br>
-<a href="#"> deneme2 </a>
- <ul>
-  <li>deneme3</li>
-  <li>deneme4</li>
- </ul>
- <ol>
-  <li>deneme5</li>
-  <li>deneme6</li>
- </ol>
- <table>
- <tr>
-  <td>deneme</td>
-  <td>deneme</td>
-  </tr>
+﻿<!--Document-->
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" class="h-100">
 
- </table>
+<head>
+    <!-- Google Analytics -->
+    <!--
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145095137-1"></script>
+        <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-145095137-1');</script>
+    -->
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Site Information -->
+    <title>Güneş ŞAHİN</title>
+    <meta name="description" content="Güneş ŞAHİN">
+
+    <!-- Design-Development -->
+    <meta name="author" content="Güneş ŞAHİN">
+    <meta name="generator" content="https://gunessahin.github.io/">
+
+    <!-- License -->
+    <!-- <meta name='dmca-site-verification' content='bU1uU3V0dXgwZ1BENXNuNWwyREE0cyt1Wk5ZTEN4aWlwTEg0S3lGQVYxelRCS1ltektKdFZhWVI1N3pXazB6Tw2' /> -->
+    <link rel="license" href="https://gunessahin.github.io/LICENSE">
+
+    <!-- Twitter -->
+    <meta name="twitter:panel" content="summary_large_image">
+    <meta name="twitter:site" content="@Güneş ŞAHİN">
+    <meta name="twitter:creator" content="@Güneş ŞAHİN">
+    <meta name="twitter:title" content="Güneş ŞAHİN">
+    <meta name="twitter:description" content="Güneş ŞAHİN">
+    <meta name="twitter:image" content="assets/theme/img/social.png">
+
+    <!-- Facebook -->
+    <meta content="//gunessahin.github.io/" property="og:url">
+    <meta content="Güneş ŞAHİN" property="og:title">
+    <meta content="Güneş ŞAHİN" property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="assets/theme/img/social.png" property="og:image">
+    <meta content="assets/theme/img/social.png" property="og:image:secure_url">
+    <meta content="image/png" property="og:image:type">
+    <meta content="1200" property="og:image:width">
+    <meta content="630" property="og:image:height">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/theme/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/theme/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/theme/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/theme/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/theme/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/theme/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/theme/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/theme/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/theme/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/theme/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/theme/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/theme/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/theme/img/favicon/favicon-16x16.png">
+    <link rel="icon" href="assets/theme/img/favicon/favicon.ico">
+    <link rel="manifest" href="assets/theme/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/theme/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Required Librarys -->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/lib/jquery/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/solid.min.css" />
+
+    <!-- Fix  -->
+    <!--[if lte IE 11]>
+        <script type="text/javascript" src="assets/lib/bootstrap-ie-fix/js/html5shiv-printshiv.min.js"></script>
+        <script type="text/javascript" src="assets/lib/bootstrap-ie-fix/js/html5shiv.min.js"></script>
+        <script type="text/javascript" src="assets/lib/bootstrap-ie-fix/js/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+        <link rel="stylesheet" href="assets/lib/bootstrap-ie-fix/css/bootstrap-ie9.css" />
+        <script type="text/javascript" src="assets/lib/bootstrap-ie-fix/js/bootstrap-ie9.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" href="assets/lib/bootstrap-ie-fix/css/bootstrap-ie8.css" />
+        <script type="text/javascript" src="assets/lib/bootstrap-ie-fix/js/bootstrap-ie8.js"></script>
+        <script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.js"></script>
+    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="assets/lib/bootstrap-ie-fix/css/bootstrap-ie7.css" />
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <main class="text-center">
+        <img src="assets/theme/img/social.png" alt="Güneş ŞAHİN" title="Güneş ŞAHİN" />
+    </main>
+
+    <!-- Application -->
+    <link rel="stylesheet" href="assets/theme/css/app.css" />
+    <script type="text/javascript" src="assets/theme/js/app.js"></script>
 </body>
+
+
 </html>
+
+<!--
+
+/*
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+    * Application: web template v0.0.0.1
+    * https://gunessahin.github.io/
+    ════════════════════════════════════════════════════════════════════════════════════════════════════
+    * Copyright gunessahin@outlook.com.tr
+    * Licence (https://gunessahin.github.io/LICANCE)
+    ████████████████████████████████████████████████████████████████████████████████████████████████████
+*/
+
+-->
